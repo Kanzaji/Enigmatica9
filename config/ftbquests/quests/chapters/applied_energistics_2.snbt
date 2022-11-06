@@ -12,8 +12,8 @@
 		{
 			title: "Applied Energistics 2"
 			icon: "ae2:network_tool"
-			x: -11.0d
-			y: -7.5d
+			x: 0.0d
+			y: -8.0d
 			shape: "gear"
 			size: 2.0d
 			optional: true
@@ -27,7 +27,7 @@
 		}
 		{
 			x: -9.0d
-			y: -5.5d
+			y: -2.0d
 			dependencies: ["2C658556B8286CF2"]
 			id: "551AF6D2AEA33C9B"
 			tasks: [{
@@ -37,8 +37,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -7.0d
+			x: -8.0d
+			y: -1.0d
 			dependencies: ["551AF6D2AEA33C9B"]
 			id: "72514FA7C49C0886"
 			tasks: [{
@@ -48,8 +48,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -4.0d
+			x: -10.0d
+			y: -1.0d
 			dependencies: ["551AF6D2AEA33C9B"]
 			id: "6CD380735661781B"
 			tasks: [{
@@ -59,8 +59,8 @@
 			}]
 		}
 		{
-			x: -6.5d
-			y: -2.5d
+			x: -11.0d
+			y: 0.0d
 			dependencies: ["4D02850841326C88"]
 			dependency_requirement: "one_completed"
 			id: "11C6F9D6F73632B7"
@@ -71,8 +71,8 @@
 			}]
 		}
 		{
-			x: -8.5d
-			y: -8.0d
+			x: -7.0d
+			y: 0.0d
 			dependencies: ["72514FA7C49C0886"]
 			id: "28766709F386E803"
 			tasks: [{
@@ -82,9 +82,9 @@
 			}]
 		}
 		{
-			x: -11.0d
-			y: -5.5d
-			dependencies: ["1577CE8DC23C7D64"]
+			title: "Starting Out"
+			x: -9.0d
+			y: -3.5d
 			id: "2C658556B8286CF2"
 			tasks: [
 				{
@@ -100,8 +100,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: -7.0d
+			x: -8.0d
+			y: 1.0d
 			dependencies: ["72514FA7C49C0886"]
 			id: "7AC86FB08D7C2991"
 			tasks: [
@@ -118,8 +118,8 @@
 			]
 		}
 		{
-			x: -6.5d
-			y: -4.0d
+			x: -10.0d
+			y: 1.0d
 			dependencies: [
 				"6CD380735661781B"
 				"11C6F9D6F73632B7"
@@ -133,8 +133,8 @@
 		}
 		{
 			title: "Basic Storage Network"
-			x: -5.5d
-			y: -5.5d
+			x: -9.0d
+			y: 2.0d
 			dependencies: [
 				"6EF8256F93F1AF2A"
 				"7AC86FB08D7C2991"
@@ -150,6 +150,8 @@
 			title: "Advanced Networking"
 			x: 0.0d
 			y: 0.0d
+			shape: "gear"
+			size: 2.0d
 			id: "2C6E0C8B033FE940"
 			tasks: [{
 				id: "4C017238B0FEAAC2"
@@ -161,7 +163,6 @@
 			title: "Storage"
 			x: 0.0d
 			y: 2.5d
-			dependencies: ["2C6E0C8B033FE940"]
 			id: "4751BA3574626A0A"
 			tasks: [{
 				id: "7DA75BB092C2A467"
@@ -171,9 +172,8 @@
 		}
 		{
 			title: "Autocrafting"
-			x: -2.5d
-			y: 0.0d
-			dependencies: ["2C6E0C8B033FE940"]
+			x: -3.5d
+			y: -1.0d
 			id: "78E2E0593BF45349"
 			tasks: [{
 				id: "4D400FB28F12A124"
@@ -185,7 +185,6 @@
 			title: "Logistics"
 			x: 2.5d
 			y: 0.0d
-			dependencies: ["2C6E0C8B033FE940"]
 			id: "5AC114D29F85F609"
 			tasks: [{
 				id: "6CD5EB231769BD7C"
@@ -194,20 +193,8 @@
 			}]
 		}
 		{
-			title: "Misc"
-			x: 0.0d
-			y: -2.5d
-			dependencies: ["2C6E0C8B033FE940"]
-			id: "07EA14E3992253AC"
-			tasks: [{
-				id: "63F038A490BF3C13"
-				type: "item"
-				item: "ae2:singularity"
-			}]
-		}
-		{
 			x: -4.5d
-			y: -1.5d
+			y: 0.0d
 			id: "71611980CFED9AF2"
 			tasks: [{
 				id: "1641BB4822B8A712"
@@ -216,8 +203,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: -0.5d
+			x: -2.5d
+			y: 0.0d
 			id: "2A486DE0A93E0C87"
 			tasks: [{
 				id: "3D838CA2427DB629"
@@ -226,8 +213,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 0.5d
+			x: -3.5d
+			y: 0.0d
 			id: "1C0E94072D7251D1"
 			tasks: [{
 				id: "61C0AAE15019E6A3"
@@ -236,8 +223,8 @@
 			}]
 		}
 		{
-			x: -4.5d
-			y: 1.5d
+			x: -3.5d
+			y: 1.0d
 			id: "5D781B05174F0243"
 			tasks: [{
 				id: "4E734CFC45A1376A"
@@ -326,7 +313,7 @@
 			}]
 		}
 		{
-			x: 6.0d
+			x: 5.5d
 			y: 1.5d
 			id: "5517A867E7C719F8"
 			tasks: [{
@@ -337,8 +324,8 @@
 		}
 		{
 			title: "Subnets"
-			x: 5.0d
-			y: 1.5d
+			x: 9.0d
+			y: -3.0d
 			id: "7D630FB489C61FB9"
 			tasks: [{
 				id: "1B6F2DBB81EF6D56"
@@ -417,8 +404,8 @@
 			}]
 		}
 		{
-			x: -7.5d
-			y: -5.5d
+			x: -9.0d
+			y: 0.0d
 			id: "490CDEFC1E6270BB"
 			tasks: [{
 				id: "2CEE6D8D4723CC90"
