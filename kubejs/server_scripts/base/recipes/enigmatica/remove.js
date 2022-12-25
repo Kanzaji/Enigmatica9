@@ -15,11 +15,16 @@ ServerEvents.recipes((event) => {
         { id: /mekanism:sawing\/log/ },
         { id: /mekanism:compat\/byg\/combining\/.*_ore_/ },
         { id: /mekanism:bin\/.*/ },
+        { id: /mekanism:crushing\/biofuel/ },
 
         { id: 'quark:tweaks/smelting/bone_meal_utility' },
 
         { id: 'create:compat/ae2/mixing/fluix_crystal' },
-        { id: "create:compat/byg/crushing/lignite_ore"},
+        { id: 'create:compat/byg/crushing/lignite_ore' },
+
+        { id: 'hexerei:black_dye_from_pestle_and_mortar' },
+
+        { id: 'occultism:crafting/butcher_knife' },
 
         { id: 'thermal:machines/centrifuge/centrifuge_allium' },
         { id: 'thermal:machines/centrifuge/centrifuge_azure_bluet' },
@@ -71,6 +76,20 @@ ServerEvents.recipes((event) => {
         { id: 'thermal:machines/refinery/refinery_heavy_oil' },
         { id: 'thermal:machines/refinery/refinery_light_oil' },
         { id: 'thermal:machines/pyrolyzer/pyrolyzer_bitumen' },
+        { id: 'thermal:compat/immersiveengineering/press_ie_hemp_to_plantoil' },
+        { id: 'thermal:storage/sugar_cane_block' },
+
+        { id: /pneumaticcraft:thermo_plant\/vegetable_oil_from_/ },
+        { id: /pneumaticcraft:thermo_plant\/ethanol_from_/ },
+
+        { id: /powah:smelting/ },
+        { id: /powah:energizing\/.*uraninite/ },
+        { id: /powah:crafting\/.*_starter/ },
+        { id: 'powah:energizing/blazing_crystal_2' },
+        { id: 'powah:crafting/energy_cell_basic_2' },
+        { id: 'powah:crafting/cable_basic_2' },
+        { id: 'powah:crafting/capacitor_basic' },
+        { id: 'powah:crafting/capacitor_basic_tiny' },
 
         { type: 'create:cutting' },
 
@@ -78,12 +97,14 @@ ServerEvents.recipes((event) => {
         { type: 'immersiveengineering:cloche' },
         { type: 'immersiveengineering:generated_list' },
         { type: 'immersiveengineering:alloy' },
+        { type: 'immersiveengineering:squeezer' },
+        { type: 'immersiveengineering:fermenter' },
 
         { type: 'thermal:sawmill' },
         { type: 'thermal:pulverizer_recycle' },
         { type: 'thermal:insolator' },
         { type: 'thermal:compression_fuel' },
-        { mod: 'gateways' },
+        { mod: 'gateways' }
     ];
 
     colors.forEach((color) => {

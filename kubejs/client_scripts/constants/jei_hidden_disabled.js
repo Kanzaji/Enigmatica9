@@ -58,7 +58,34 @@ jei.base.items.disabled = [
     'thermal:crude_oil_bucket',
     'thermal:heavy_oil_bucket',
     'thermal:light_oil_bucket',
-    'thermal:refined_fuel_bucket'
+    'thermal:refined_fuel_bucket',
+    'immersiveengineering:plantoil_bucket',
+    'immersiveengineering:ethanol_bucket',
+    'immersiveengineering:biodiesel_bucket',
+    'occultism:butcher_knife',
+    'powah:uraninite_ore_dense',
+    'powah:uraninite_ore',
+    'powah:uraninite_ore_poor',
+    'powah:deepslate_uraninite_ore_dense',
+    'powah:deepslate_uraninite_ore',
+    'powah:deepslate_uraninite_ore_poor',
+    'powah:uraninite_raw',
+    'powah:energy_discharger_starter',
+    'powah:energy_hopper_starter',
+    'powah:player_transmitter_starter',
+    'powah:reactor_starter',
+    'powah:solar_panel_starter',
+    'powah:thermo_generator_starter',
+    'powah:magmator_starter',
+    'powah:furnator_starter',
+    'powah:energizing_rod_starter',
+    'powah:ender_gate_starter',
+    'powah:energy_cable_starter',
+    'powah:ender_cell_starter',
+    'powah:energy_cell_starter',
+    'powah:battery_starter',
+    'powah:capacitor_basic',
+    'powah:capacitor_basic_tiny'
 ];
 jei.base.items.hidden = [
     'kubejs:altered_recipe_indicator',
@@ -96,7 +123,15 @@ jei.base.items.hidden = [
     'twilightforest:ur_ghast_boss_spawner',
     'twilightforest:knight_phantom_boss_spawner',
     'twilightforest:minoshroom_boss_spawner',
-    'twilightforest:lich_boss_spawner'
+    'twilightforest:lich_boss_spawner',
+    'hexerei:small_selenite_bud',
+    'hexerei:medium_selenite_bud',
+    'hexerei:large_selenite_bud',
+    'hexerei:selenite_cluster',
+    'hexerei:budding_selenite',
+    'hexerei:selenite_block',
+    'hexerei:creative_waxing_kit',
+    'hexerei:selenite_shard'
 ];
 jei.base.fluids.hidden = [
     'thermal:latex',
@@ -104,7 +139,10 @@ jei.base.fluids.hidden = [
     'thermal:crude_oil',
     'thermal:heavy_oil',
     'thermal:light_oil',
-    'thermal:refined_fuel'
+    'thermal:refined_fuel',
+    'immersiveengineering:plantoil',
+    'immersiveengineering:ethanol',
+    'immersiveengineering:biodiesel'
 ];
 jei.base.categories.hidden = ['twilightforest:uncrafting'];
 
