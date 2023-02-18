@@ -43,6 +43,7 @@ ServerEvents.recipes((event) => {
         recipe.type = 'thermal:insolator';
         recipe.input = recipe.input.toJson();
         recipe.results = recipe.outputs;
+        recipe.outputs = null;
         event.custom(recipe).id(recipe.id);
     });
 });

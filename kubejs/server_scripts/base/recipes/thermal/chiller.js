@@ -15,6 +15,7 @@ ServerEvents.recipes((event) => {
         recipe.type = 'thermal:chiller';
         recipe.ingredients = [recipe.fluid.toJson(), recipe.cast.toJson()];
         recipe.result = recipe.outputs.map((output) => output.toJson());
+        recipe.fluid = null; recipe.cast = null; recipe.outputs = null;
         event.custom(recipe).id(recipe.id);
     });
 });

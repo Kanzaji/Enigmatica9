@@ -29,6 +29,7 @@ ServerEvents.recipes((event) => {
             recipe.input.charAt(0) == '#' ? { tag: recipe.input.split('#')[1] } : { item: recipe.input };
 
         recipe.energy = recipe.energy * multiplier;
+        recipe.input = null;
         event.custom(recipe).id(`${id_prefix}${recipe.input.split('/')[1]}`);
     });
 });

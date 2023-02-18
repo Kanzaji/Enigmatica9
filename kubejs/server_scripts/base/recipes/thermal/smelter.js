@@ -18,6 +18,8 @@ ServerEvents.recipes((event) => {
 
         recipe.result = recipe.outputs.map((output) => output.toJson());
 
+        recipe.inputs = null; recipe.outputs = null;
+
         event.custom(recipe).id(recipe.id);
     });
 });

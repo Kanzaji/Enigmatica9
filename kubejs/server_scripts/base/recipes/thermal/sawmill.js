@@ -67,6 +67,7 @@ ServerEvents.recipes((event) => {
         recipe.type = 'thermal:sawmill';
         recipe.ingredients = Ingredient.of(recipe.input).toJson();
         recipe.result = recipe.outputs;
+        recipe.input = null; recipe.outputs = null;
         event.custom(recipe).id(recipe.id);
     });
 });

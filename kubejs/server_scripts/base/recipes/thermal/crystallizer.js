@@ -53,6 +53,7 @@ ServerEvents.recipes((event) => {
         recipe.ingredients = recipe.inputs.map((input) => Ingredient.of(input).toJson());
         recipe.ingredients.push(recipe.fluid.toJson());
         recipe.result = recipe.outputs.map((output) => output.toJson());
+        recipe.inputs = null; recipe.fluid = null; recipe.outputs = null;
         event.custom(recipe).id(recipe.id);
     });
 });

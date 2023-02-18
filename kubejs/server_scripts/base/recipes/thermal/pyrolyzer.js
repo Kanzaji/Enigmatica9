@@ -37,6 +37,7 @@ ServerEvents.recipes((event) => {
         recipe.type = 'thermal:pyrolyzer';
         recipe.ingredient = recipe.input.toJson();
         recipe.result = recipe.outputs;
+        recipe.input = null; recipe.outputs = null;
         event.custom(recipe).id(recipe.id);
     });
 });
