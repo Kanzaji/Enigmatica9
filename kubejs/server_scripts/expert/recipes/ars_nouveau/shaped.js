@@ -42,19 +42,80 @@ ServerEvents.recipes((event) => {
             key: {
                 A: '#forge:storage_blocks/glowstone',
                 B: 'thermal:jar',
-                C: 'ars_nouveau:air_essence'
+                C: '#forge:essences/air'
             },
-            id: `ars_nouveau:jar_of_light`
+            id: `${id_prefix}jar_of_light`
         },
         {
             output: 'ars_nouveau:void_jar',
             pattern: ['A', 'B', 'C'],
             key: {
-                A: 'ars_nouveau:fire_essence',
+                A: '#forge:essences/fire',
                 B: 'thermal:jar',
-                C: 'ars_nouveau:manipulation_essence'
+                C: '#forge:essences/manipulation'
             },
-            id: `ars_nouveau:void_jar`
+            id: `${id_prefix}void_jar`
+        },
+        {
+            output: 'ars_nouveau:arcane_core',
+            pattern: ['AAA', 'BCB', 'AAA'],
+            key: {
+                A: 'ars_nouveau:sourcestone',
+                B: '#forge:ingots/energized_steel',
+                C: '#forge:gems/source'
+            },
+            id: `ars_nouveau:arcane_core`
+        },
+        {
+            output: 'ars_nouveau:enchanting_apparatus',
+            pattern: ['BAB', ' C ', 'BAB'],
+            key: {
+                A: 'ars_nouveau:sourcestone',
+                B: '#forge:ingots/energized_steel',
+                C: '#forge:gems/fluix'
+            },
+            id: `ars_nouveau:enchanting_apparatus`
+        },
+        {
+            output: 'ars_nouveau:ring_of_potential',
+            pattern: ['AAA', 'ABA', 'AAA'],
+            key: {
+                A: '#forge:nuggets/silver',
+                B: '#forge:gems/source'
+            },
+            id: `ars_nouveau:ring_of_potential`
+        },
+        {
+            output: 'ars_nouveau:alchemists_crown',
+            pattern: ['ABA', 'BCB', '  D'],
+            key: {
+                A: 'thermal:jar',
+                B: '#forge:wires/electrum',
+                C: 'ars_nouveau:mundane_belt',
+                D: 'createaddition:straw'
+            },
+            id: `${id_prefix}alchemists_crown`
+        },
+        {
+            output: '2x ars_nouveau:repository',
+            pattern: ['ABA', 'BCB', 'ABA'],
+            key: {
+                A: '#forge:nuggets/electrum',
+                B: 'ars_nouveau:archwood_chest',
+                C: '#forge:gems/source'
+            },
+            id: `ars_nouveau:repository`
+        },
+        {
+            output: 'ars_nouveau:dominion_wand',
+            pattern: [' AB', ' CA', 'CD '],
+            key: {
+                A: '#forge:nuggets/electrum',
+                B: '#forge:gems/source',
+                C: '#forge:rods/wooden',
+                D: '#forge:fabrics/infused'
+            },
+            id: `${id_prefix}dominion_wand`
         }
     ];
 

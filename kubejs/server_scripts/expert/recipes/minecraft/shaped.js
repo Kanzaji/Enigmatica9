@@ -43,13 +43,13 @@ ServerEvents.recipes((event) => {
             id: `minecraft:compass`
         },
         {
-            output: '8x minecraft:dragon_breath',
-            pattern: ['AAA', 'ABA', 'AAA'],
+            output: '4x minecraft:fire_charge',
+            pattern: [' B ', 'BAB', ' B '],
             key: {
-                A: 'twilightforest:fiery_blood',
-                B: 'ars_nouveau:air_essence'
+                A: '#forge:essences/fire',
+                B: 'ae2:tiny_tnt'
             },
-            id: `${id_prefix}dragon_breath`
+            id: `${id_prefix}fire_charge`
         }
     ];
 

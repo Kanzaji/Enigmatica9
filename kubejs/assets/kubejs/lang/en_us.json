@@ -12,6 +12,9 @@
 
     "item.kubejs.amethyst_dust": "Amethyst Dust",
 
+    "entity.minecraft.villager.byg.forager": "Forager",
+    "tooltip.hexerei.sage_seeds": "May be purchased from the Market block.",
+
     "recipes.lychee.item_inside.sunstone.condition.description": "Converts around Noon. Reverts if left out too long...",
     "recipes.lychee.item_inside.moonstone.condition.description": "Converts around Midnight. Reverts if left out too long...",
     "recipes.lychee.item_inside.filter_filling.condition.description": "Place a Filter in an Ocean Biome under Y63 and above Y0. The Filter must have Water blocks at each of the cardinal direction and will fill slowly over time.",
@@ -21,6 +24,7 @@
     "ritual.occultism.sacrifice.air_elementals": "Blitz",
     "ritual.occultism.sacrifice.earth_elementals": "Basalz",
     "ritual.occultism.sacrifice.water_elementals": "Blizz",
+    "ritual.occultism.sacrifice.azulfo": "Azulfo",
 
     "advancements.occultism.possess_enderman.title": "Ritual: Possess Enderman",
     "advancements.occultism.possess_endermite.title": "Ritual: Possess Endermite",
@@ -56,10 +60,15 @@
     "book.occultism.dictionary_of_spirits.pentacles.lesser_binding.intro.title": "Getting Even",
     "book.occultism.dictionary_of_spirits.pentacles.lesser_binding.intro.text": "When you break rules, break 'em good and hard.\n\\\n\\\n[#](FFAA00)Gythia's Perpetual Geas[#]() is used for summoning and binding elemental spirits into objects, allowing one to safely craft items requiring them as sacrifice.",
 
-    "multiblock.occultism.summon_evil": "Birog's Baleful Binding",
-    "book.occultism.dictionary_of_spirits.pentacles.summon_evil.name": "Birog's Baleful Binding",
-    "book.occultism.dictionary_of_spirits.pentacles.summon_evil.intro.title": "A Dreadful Affair",
-    "book.occultism.dictionary_of_spirits.pentacles.summon_evil.intro.text": "Summon evil creatures.",
+    "multiblock.occultism.summon_lesser_evil": "Birog's Baleful Binding",
+    "book.occultism.dictionary_of_spirits.pentacles.summon_lesser_evil.name": "Birog's Baleful Binding",
+    "book.occultism.dictionary_of_spirits.pentacles.summon_lesser_evil.intro.title": "A Dreadful Affair",
+    "book.occultism.dictionary_of_spirits.pentacles.summon_lesser_evil.intro.text": "Summon evil creatures.",
+
+    "multiblock.occultism.summon_greater_evil": "Eskarina's Monstrous Compulsion",
+    "book.occultism.dictionary_of_spirits.pentacles.summon_greater_evil.name": "Eskarina's Monstrous Compulsion",
+    "book.occultism.dictionary_of_spirits.pentacles.summon_greater_evil.intro.title": "Call Upon the Unseen",
+    "book.occultism.dictionary_of_spirits.pentacles.summon_greater_evil.intro.text": "Magic has a habit of lying low, like a rake in the grass.",
 
     "item.kubejs.ritual_tree_of_life_1.tooltip": "Grow the Tree of Life with the magical powers attained so far.",
     "multiblock.occultism.tree_of_life_stage_1": "Tree of Life - Stage 1 or Higher",
@@ -105,6 +114,13 @@
     "ritual.enigmatica.occultism/ritual/ritual_teleport_everbright.finished": "Please mind the gap.",
     "ritual.enigmatica.occultism/ritual/ritual_teleport_everbright.interrupted": "Service to Everbright has been discontinued at this time.",
     "ritual.enigmatica.occultism/ritual/ritual_teleport_everbright.conditions": "Toll not accepted. Please provide the full cost of the ritual.",
+
+    "item.kubejs.ritual_teleport_nether": "Ritual: Teleport to The Nether.",
+    "item.kubejs.ritual_teleport_nether.tooltip": "Use the incredible power of Celestial Gold to jump planes.",
+    "ritual.enigmatica.occultism/ritual/ritual_teleport_nether.started": "Destination, The Nether. Keep your hands and arms fully inside the ritual circle at all times.",
+    "ritual.enigmatica.occultism/ritual/ritual_teleport_nether.finished": "Please mind the gap.",
+    "ritual.enigmatica.occultism/ritual/ritual_teleport_nether.interrupted": "Service to The Nether has been discontinued at this time.",
+    "ritual.enigmatica.occultism/ritual/ritual_teleport_nether.conditions": "Toll not accepted. Please provide the full cost of the ritual.",
 
     "ritual.enigmatica.occultism/ritual/ritual_aura_generation.started": "Ritual of Aura started.",
     "ritual.enigmatica.occultism/ritual/ritual_aura_generation.finished": "Ritual of Aura completed.",
@@ -152,22 +168,29 @@
     "ritual.enigmatica.occultism/ritual/ritual_summon_amethyst_golem.interrupted": "Ritual of Calling interrupted.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_amethyst_golem.conditions": "Not all requirements for this ritual are met.",
 
+    "item.kubejs.ritual_summon_bookwyrm": "Ritual: Summon Bookwyrm",
+    "item.kubejs.ritual_summon_bookwyrm.tooltip": "Summon a Bookwyrm",
+    "ritual.enigmatica.occultism/ritual/ritual_summon_bookwyrm.started": "Ritual of Calling started.",
+    "ritual.enigmatica.occultism/ritual/ritual_summon_bookwyrm.finished": "Ritual of Calling completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_summon_bookwyrm.interrupted": "Ritual of Calling interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_summon_bookwyrm.conditions": "Not all requirements for this ritual are met.",
+
     "item.kubejs.ritual_summon_starbuncle": "Ritual: Summon Starbuncle",
-    "item.kubejs.ritual_summon_starbuncle.tooltip": "Summon a Starbuncle to assist.",
+    "item.kubejs.ritual_summon_starbuncle.tooltip": "Summon a Starbuncle",
     "ritual.enigmatica.occultism/ritual/ritual_summon_starbuncle.started": "Ritual of Calling started.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_starbuncle.finished": "Ritual of Calling completed.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_starbuncle.interrupted": "Ritual of Calling interrupted.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_starbuncle.conditions": "Not all requirements for this ritual are met.",
 
     "item.kubejs.ritual_summon_starbuncle_from_shards": "Ritual: Summon Starbuncle",
-    "item.kubejs.ritual_summon_starbuncle_from_shards.tooltip": "Summon a Starbuncle to assist.",
+    "item.kubejs.ritual_summon_starbuncle_from_shards.tooltip": "Summon a Starbuncle",
     "ritual.enigmatica.occultism/ritual/ritual_summon_starbuncle_from_shards.started": "Ritual of Calling started.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_starbuncle_from_shards.finished": "Ritual of Calling completed.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_starbuncle_from_shards.interrupted": "Ritual of Calling interrupted.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_starbuncle_from_shards.conditions": "Not all requirements for this ritual are met.",
 
     "item.kubejs.ritual_craft_willow_broom": "Ritual: Craft Willow Broom",
-    "item.kubejs.ritual_craft_willow_broom.tooltip": "Bind a Raven to obtain the power of flight.",
+    "item.kubejs.ritual_craft_willow_broom.tooltip": "Bind a fae into a broom to obtain the power of flight.",
     "ritual.enigmatica.occultism/ritual/ritual_craft_willow_broom.started": "Ritual of Binding started.",
     "ritual.enigmatica.occultism/ritual/ritual_craft_willow_broom.finished": "Ritual of Binding completed.",
     "ritual.enigmatica.occultism/ritual/ritual_craft_willow_broom.interrupted": "Ritual of Binding interrupted.",
@@ -179,6 +202,20 @@
     "ritual.enigmatica.occultism/ritual/ritual_craft_module_expansion_card.finished": "Ritual of Binding completed.",
     "ritual.enigmatica.occultism/ritual/ritual_craft_module_expansion_card.interrupted": "Ritual of Binding interrupted.",
     "ritual.enigmatica.occultism/ritual/ritual_craft_module_expansion_card.conditions": "Not all requirements for this ritual are met.",
+
+    "item.kubejs.ritual_craft_component_electronic": "Ritual: Craft Imprinted Control Crystal",
+    "item.kubejs.ritual_craft_component_electronic.tooltip": "Bind a Fire Elemental to control various devices.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_component_electronic.started": "Ritual of Binding started.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_component_electronic.finished": "Ritual of Binding completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_component_electronic.interrupted": "Ritual of Binding interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_component_electronic.conditions": "Not all requirements for this ritual are met.",
+
+    "item.kubejs.ritual_craft_jet_boots_upgrade_3": "Ritual: Craft Jet Boots Upgrade",
+    "item.kubejs.ritual_craft_jet_boots_upgrade_3.tooltip": "Bind an Air Elemental to obtain the power of flight.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_jet_boots_upgrade_3.started": "Ritual of Binding started.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_jet_boots_upgrade_3.finished": "Ritual of Binding completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_jet_boots_upgrade_3.interrupted": "Ritual of Binding interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_jet_boots_upgrade_3.conditions": "Not all requirements for this ritual are met.",
 
     "item.kubejs.ritual_craft_blaze_burner": "Ritual: Craft Blaze Burner",
     "item.kubejs.ritual_craft_blaze_burner.tooltip": "Bind a Fire Elemental to provide a powerful source of heat.",
@@ -221,6 +258,48 @@
     "ritual.enigmatica.occultism/ritual/ritual_summon_bound_blizz.finished": "Ritual of Binding completed.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_bound_blizz.interrupted": "Ritual of Binding interrupted.",
     "ritual.enigmatica.occultism/ritual/ritual_summon_bound_blizz.conditions": "Not all requirements for this ritual are met.",
+
+    "item.kubejs.ritual_craft_energetic_transference_matrix": "Ritual: Craft Energetic Transference Matrix",
+    "item.kubejs.ritual_craft_energetic_transference_matrix.tooltip": "Craft Energetic Transference Matrix",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_energetic_transference_matrix.started": "Crafting Ritual started.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_energetic_transference_matrix.finished": "Crafting Ritual completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_energetic_transference_matrix.interrupted": "Crafting Ritual interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_energetic_transference_matrix.conditions": "Not all requirements for this ritual are met.",
+
+    "item.kubejs.ritual_craft_controller": "Ritual: Craft ME Controller",
+    "item.kubejs.ritual_craft_controller.tooltip": "Bind a Water Elemental to control the flow of Source.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_controller.started": "Ritual of Binding started.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_controller.finished": "Ritual of Binding completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_controller.interrupted": "Ritual of Binding interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_controller.conditions": "Not all requirements for this ritual are met.",
+
+    "item.kubejs.ritual_craft_ore_laser_base": "Ritual: Material Laser Base",
+    "item.kubejs.ritual_craft_ore_laser_base.tooltip": "Bind an Earth Elemental retrieve resources from the terrestrial depths.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_ore_laser_base.started": "Ritual of Binding started.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_ore_laser_base.finished": "Ritual of Binding completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_ore_laser_base.interrupted": "Ritual of Binding interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_ore_laser_base.conditions": "Not all requirements for this ritual are met.",
+
+    "item.kubejs.ritual_craft_fluid_laser_base": "Ritual: Craft Fluid Laser Base",
+    "item.kubejs.ritual_craft_fluid_laser_base.tooltip": "Bind a Water Elemental to retrieve resources from the depths of the abyssal depths.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_fluid_laser_base.started": "Ritual of Binding started.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_fluid_laser_base.finished": "Ritual of Binding completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_fluid_laser_base.interrupted": "Ritual of Binding interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_fluid_laser_base.conditions": "Not all requirements for this ritual are met.",
+
+    "item.kubejs.ritual_craft_flux_compressor": "Ritual: Craft Arcane Compressor",
+    "item.kubejs.ritual_craft_flux_compressor.tooltip": "Bind an Air Elemental to generate powerful air currents.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_flux_compressor.started": "Ritual of Binding started.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_flux_compressor.finished": "Ritual of Binding completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_flux_compressor.interrupted": "Ritual of Binding interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_flux_compressor.conditions": "Not all requirements for this ritual are met.",
+
+    "item.kubejs.ritual_craft_electric_motor": "Ritual: Craft Arcane Motor",
+    "item.kubejs.ritual_craft_electric_motor.tooltip": "Bind an Earth Elemental to generate rotational energy.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_electric_motor.started": "Ritual of Binding started.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_electric_motor.finished": "Ritual of Binding completed.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_electric_motor.interrupted": "Ritual of Binding interrupted.",
+    "ritual.enigmatica.occultism/ritual/ritual_craft_electric_motor.conditions": "Not all requirements for this ritual are met.",
 
     "ritual.enigmatica.occultism/ritual/creeper_gate_small.started": "Started Opening Small Creeper Gateway",
     "ritual.enigmatica.occultism/ritual/creeper_gate_small.finished": "Small Creeper Gateway Opened",
@@ -426,5 +505,17 @@
     "ritual.enigmatica.occultism/ritual/blitz_gate_large.interrupted": "Large Air Elemental Gateway Interrupted",
     "ritual.enigmatica.occultism/ritual/blitz_gate_large.conditions": "Not all requirements for this ritual are met.",
 
-    "gateways.spawner_rift": "Spawner Rift"
+    "gateways.spawner_rift": "Spawner Rift",
+
+    "gateways.wither_council_gate": "Wither Council Gate",
+    "ritual.enigmatica.occultism/ritual/wither_council_gate.started": "Started Summoning the Wither Council",
+    "ritual.enigmatica.occultism/ritual/wither_council_gate.finished": "The Wither Council's gateway has opened",
+    "ritual.enigmatica.occultism/ritual/wither_council_gate.interrupted": "The Wither Council's gateway has been interrupted",
+    "ritual.enigmatica.occultism/ritual/wither_council_gate.conditions": "Not all requirements for this ritual are met.",
+
+    "gateways.wilden_grove_gate": "Grove of the Wilden Gate",
+    "ritual.enigmatica.occultism/ritual/wilden_grove_gate.started": "Started Summoning the Grove of the Wilden",
+    "ritual.enigmatica.occultism/ritual/wilden_grove_gate.finished": "The Grove of the Wilden gateway has opened",
+    "ritual.enigmatica.occultism/ritual/wilden_grove_gate.interrupted": "The Grove of the Wilden gateway has been interrupted",
+    "ritual.enigmatica.occultism/ritual/wilden_grove_gate.conditions": "Not all requirements for this ritual are met."
 }

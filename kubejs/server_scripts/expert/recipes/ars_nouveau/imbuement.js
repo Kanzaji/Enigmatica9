@@ -8,12 +8,12 @@ ServerEvents.recipes((event) => {
     const recipes = [
         {
             input: { tag: 'forge:ingots/pig_iron' },
-            output: 'minecraft:iron_ingot',
+            output: 'emendatusenigmatica:iron_ingot',
             count: 1,
             pedestalItems: [
-                { item: { item: 'ars_nouveau:air_essence' } },
-                { item: { item: 'ars_nouveau:fire_essence' } },
-                { item: { item: 'ars_nouveau:fire_essence' } }
+                { item: { tag: 'forge:essences/air' } },
+                { item: { tag: 'forge:essences/fire' } },
+                { item: { tag: 'forge:essences/fire' } }
             ],
             source: 600,
             id: `${id_prefix}iron_from_pig_iron`
@@ -87,18 +87,6 @@ ServerEvents.recipes((event) => {
             id: `${id_prefix}infused_stone`
         },
         {
-            input: { item: 'naturesaura:infused_slab' },
-            output: 'pneumaticcraft:logistics_core',
-            count: 2,
-            pedestalItems: [
-                { item: { tag: 'forge:storage_blocks/carminite' } },
-                { item: { item: 'ars_nouveau:manipulation_essence' } },
-                { item: { item: 'ars_nouveau:conjuration_essence' } }
-            ],
-            source: 500,
-            id: `${id_prefix}logistics_core`
-        },
-        {
             input: { tag: 'forge:gems/source' },
             output: 'ars_nouveau:conjuration_essence',
             count: 1,
@@ -133,6 +121,32 @@ ServerEvents.recipes((event) => {
             ],
             source: 2000,
             id: `ars_elemental:imbuement_anima_essence`
+        },
+        {
+            input: { item: 'pneumaticcraft:compressed_stone' },
+            output: 'pneumaticcraft:drill_bit_iron',
+            count: 1,
+            pedestalItems: [
+                { item: { tag: 'forge:essences/earth' } },
+                { item: { tag: 'forge:essences/earth' } },
+                { item: { tag: 'forge:essences/earth' } }
+            ],
+            source: 600,
+            id: `${id_prefix}drill_bit_iron`
+        },
+        {
+            input: { tag: 'forge:gems/infused_diamond' },
+            output: 'ars_elemental:mark_of_mastery',
+            count: 1,
+            pedestalItems: [
+                { item: { item: 'ars_nouveau:wilden_tribute' } },
+                { item: { tag: 'forge:essences/abjuration' } },
+                { item: { tag: 'forge:essences/anima' } },
+                { item: { tag: 'forge:essences/manipulation' } },
+                { item: { tag: 'forge:essences/conjuration' } }
+            ],
+            source: 10000,
+            id: 'ars_elemental:imbuement_mark_of_mastery'
         }
     ];
 

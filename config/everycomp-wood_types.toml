@@ -98,10 +98,15 @@
 			willow = true
 			witch_hazel = true
 			zelkova = true
+			flowering_baobab = true
+			ripe_baobab = true
+			flowering_joshua = true
+			flowering_skyris = true
 
 		[types.leaves_type.hexerei]
 			mahogany = true
 			willow = true
+			witch_hazel = true
 
 		[types.leaves_type.quark]
 			blue_blossom = true
@@ -172,6 +177,7 @@
 		[types.wood_type.hexerei]
 			mahogany = true
 			willow = true
+			witch_hazel = true
 
 		[types.wood_type.twilightforest]
 			twilight_oak = true
@@ -263,6 +269,8 @@
 			concrete_leaded = true
 			insulating_glass = true
 			alloybrick = true
+			hempcrete_brick = true
+			concrete_brick = true
 
 		[types.cut_block_type.occultism]
 			otherstone = true
@@ -339,6 +347,8 @@
 			polished_mahogany = true
 			willow = true
 			polished_willow = true
+			witch_hazel = true
+			polished_witch_hazel = true
 
 		[types.cut_block_type.blue_skies]
 			nature_stone = true
@@ -564,6 +574,7 @@
 			chest = true
 			bookshelf = true
 			stripped_post = true
+			hollow_log = true
 
 		[entries.wood_type.twilightforest]
 			banister = true

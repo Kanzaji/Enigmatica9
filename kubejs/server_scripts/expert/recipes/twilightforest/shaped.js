@@ -6,23 +6,24 @@ ServerEvents.recipes((event) => {
 
     const recipes = [
         {
-            output: 'twilightforest:carminite_reactor',
-            pattern: ['ABA', 'BCB', 'ABA'],
-            key: {
-                A: 'twilightforest:encased_towerwood',
-                B: '#forge:gems/carminite',
-                C: '#forge:storage_blocks/source'
-            },
-            id: 'twilightforest:carminite_reactor'
-        },
-        {
             output: '8x twilightforest:fiery_blood',
             pattern: ['AAA', 'ABA', 'AAA'],
             key: {
                 A: 'hexerei:blood_bottle',
-                B: 'ars_nouveau:fire_essence'
+                B: '#forge:essences/fire'
             },
             id: `${id_prefix}fiery_blood`
+        },
+        {
+            output: 'twilightforest:moon_dial',
+            pattern: [' A ', 'BCB', 'ADA'],
+            key: {
+                A: '#forge:ingots/gold',
+                B: '#forge:nuggets/gold',
+                C: '#forge:gems/moonstone',
+                D: '#forge:dusts/redstone'
+            },
+            id: `${id_prefix}moon_dial`
         }
     ];
 

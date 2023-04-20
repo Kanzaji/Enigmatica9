@@ -1,6 +1,6 @@
 //priority: 1000
 
-const sawdust = 'thermal:sawdust';
+const sawdust = 'emendatusenigmatica:wood_dust';
 const bark = 'farmersdelight:tree_bark';
 
 // Used to populate the wood_variants_constructor constant - Add variants here to enable compat with various cutting mechanics.
@@ -69,7 +69,8 @@ var wood_variants_constructor = [
     'twilightforest:mining',
     'twilightforest:sorting',
     'hexerei:mahogany',
-    'hexerei:willow'
+    'hexerei:willow',
+    'hexerei:witch_hazel'
 ];
 
 const wood_properties = [];

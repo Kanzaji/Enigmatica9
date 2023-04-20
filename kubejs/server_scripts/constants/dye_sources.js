@@ -53,13 +53,6 @@ const dye_sources = [
         tertiary: 'minecraft:glowstone_dust'
     },
     {
-        input: 'minecraft:charcoal',
-        type: 'small',
-        primary: 'minecraft:black_dye',
-        secondary: 'minecraft:black_dye',
-        tertiary: 'minecraft:black_dye'
-    },
-    {
         input: 'minecraft:bone',
         type: 'small',
         primary: 'minecraft:bone_meal',
@@ -1010,6 +1003,16 @@ const dye_sources = [
         primary: 'minecraft:black_dye',
         secondary: 'minecraft:black_dye',
         tertiary: 'minecraft:purple_dye'
+    },
+
+    // Many Ideas
+
+    {
+        input: 'minecraft:prismarine_crystals',
+        type: 'small',
+        primary: 'manyideas_core:dye_rainbow',
+        secondary: 'manyideas_core:dye_rainbow',
+        tertiary: 'manyideas_core:dye_rainbow'
     }
 ];
 

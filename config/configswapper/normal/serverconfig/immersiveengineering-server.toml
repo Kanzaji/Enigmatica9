@@ -328,7 +328,7 @@
 		chance = 0.9
 		#The maximum amount of yield one can get out of a chunk with the excavator. Set a number smaller than zero to make it infinite
 		#Range: > -1
-		yield = 2048000
+		yield = -1
 		#The maximum depletion a vein can start with, as a decimal value. When a vein generates, a random percentage up to this value is depleted from it
 		#Range: 0.0 ~ 1.0
 		initial_depletion = 0.2
@@ -352,7 +352,7 @@
 		air_exposure = 0.0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 6
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = 32
@@ -375,7 +375,7 @@
 		air_exposure = 0.0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 8
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -32
@@ -398,7 +398,7 @@
 		air_exposure = 0.25
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 9
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -48
@@ -421,7 +421,7 @@
 		air_exposure = 0.0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 5
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -64
@@ -444,7 +444,7 @@
 		air_exposure = 0.0
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 6
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -120
@@ -467,7 +467,7 @@
 		air_exposure = 0.5
 		#The maximum size of a vein. Set to 0 to disable generation
 		#Range: > 0
-		vein_size = 4
+		vein_size = 0
 		#The minimum Y coordinate this ore can spawn at
 		#Range: > -2147483648
 		min_y = -64

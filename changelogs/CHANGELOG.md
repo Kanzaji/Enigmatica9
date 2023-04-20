@@ -1,4 +1,74 @@
-### Enigmatica 9 v1.4.1
+### Enigmatica 9 v1.6.0
+
+_Using Forge-1.19.2-43.2.6_ | _[Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica9/blob/master/changelogs/changelog_mods_1.6.0.md)_ | _[Modlist](https://github.com/EnigmaticaModpacks/Enigmatica9/blob/master/changelogs/modlist_1.6.0.md)_
+
+**New Mods**
+
+**Improvements**
+
+-   Update Blue Skies Boss loot to guarantee certain drops and buff others
+-   Create alternate crafting recipe for red nether brick that doesn't use netherwart
+-   Kerosene and Source may now be used to superheat Blaze Burners
+-   AE2 Growth Accelerators now work on Sunstone, Moonstone, Therium Crystals, and Subzero Crystals, in addition to Certus and Amethyst
+-   Ars Nouveau Golems now harvest Sunstone, Moonstone, Amethyst, Therium Crystals, Subzero Crystals, and Certus
+-   Glass Smelting has been cleaned up to make a little more sense
+-   Many tags have been updated for blocks, gems, and ingots
+-   Add more tooltips for Redstone devices, including the new Online Detector blocks
+-   Add IE machines to JEI so they can be discovered more easily. Also adds some descriptions to them when no recipes are shown (ex. diesel generator)
+-   Hide The One Probe recipes and items as they're not used
+-   Add many stone and cobblestone types to the Igneous Extruder
+-   Add special recipes for Frost Magma, Cryptic Magma, and Permafrost
+-   All Minecraft stone types may now be generated in the Material StoneWork Factory. Others are excluded to avoid overloading the selection interface. Many of these also no longer consume Water or Lava.
+-   Add many Twilight Forest and Blue Skies animals to Nature's Aura Altar of Birthing
+-   Introducing the Wither Council and Grove of the Wilden gateways, available now on Abra's Open Conjure. Can you finish them in time?
+-   Coffee may be purchased from the Market block.
+-   Tooltip on Sage changed to direct players to the Market Block rather than breaking grass.
+-   Allow Prismarine to be made from Certus Quartz with Natures Aura, preventing a feedback loop with regular quartz.
+-   Add Hexerei's new tree to wood cutting machines
+-   Add Demon's Dream, Hemp, Sage, and other Hexerei Plants to Village loot and Shipwrecks
+-   Add some other fun loot to Shipwrecks
+-   Reduce cost of Demon's Dream, Hemp, Sage, and other Hexerei Plants in the Market from an Emerald to a gold
+-   Buff Enigmatic Unity power conversion
+-   Immersive Engineering mineral deposits are now infinite! Huzzah!
+
+**Fixed Bugs**
+
+-   Remove disabled items from Occultism quests [\#258](https://github.com/EnigmaticaModpacks/Enigmatica9/pull/258) ([MuteTiefling](https://github.com/MuteTiefling))
+-   Remove refrences to non existant schematics in Natures Aura quests [\#259](https://github.com/EnigmaticaModpacks/Enigmatica9/pull/259) ([MuteTiefling](https://github.com/MuteTiefling))
+-   Clarify Tools quests [\#255](https://github.com/EnigmaticaModpacks/Enigmatica9/pull/255) ([MuteTiefling](https://github.com/MuteTiefling))
+-   Fix Thermal Tomato Sauce [\#280](https://github.com/EnigmaticaModpacks/Enigmatica9/issues/280) ([MuteTiefling](https://github.com/MuteTiefling))
+-   Fix missing loot in Industrial Foregoing Quests ([MuteTiefling](https://github.com/MuteTiefling))
+-   Fix broken loot in Create Quests (https://github.com/EnigmaticaModpacks/Enigmatica9/issues/289) ([MuteTiefling](https://github.com/MuteTiefling))
+
+---
+
+### Enigmatica 9 v1.5.0
+
+_Using Forge-1.19.2-43.2.4_ | _[Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica9/blob/master/changelogs/changelog_mods_1.5.0.md)_ | _[Modlist](https://github.com/EnigmaticaModpacks/Enigmatica9/blob/master/changelogs/modlist_1.5.0.md)_
+
+**Please read the changelog for [v1.4.0](#enigmatica-9-v141--v142), it has breaking changes.**
+
+**New Mods**
+
+-   [Mob Despawn Timers](https://www.curseforge.com/minecraft/mc-mods/mob-despawn-timers) (by [Shadows_of_Fire](https://www.curseforge.com/members/Shadows_of_Fire/projects))
+
+**Improvements**
+
+-   Significantly reduce the rate of super glue in Create loot rewards [\#239](https://github.com/EnigmaticaModpacks/Enigmatica9/pull/239) ([MuteTiefling](https://github.com/MuteTiefling))
+-   Remove invalid bone meal recipe [\#238](https://github.com/EnigmaticaModpacks/Enigmatica9/pull/238) ([MuteTiefling](https://github.com/MuteTiefling))
+-   fix PNC drones not working [\#237](https://github.com/EnigmaticaModpacks/Enigmatica9/pull/237) ([MuteTiefling](https://github.com/MuteTiefling))
+-   AE2 Quests and more [\#234](https://github.com/EnigmaticaModpacks/Enigmatica9/pull/234) ([MuteTiefling](https://github.com/MuteTiefling))
+
+**Fixed Bugs**
+
+-   Crimson altar fails to convert gold to tainted gold [\#240](https://github.com/EnigmaticaModpacks/Enigmatica9/issues/240)
+-   Can't Parse Loot Table [\#233](https://github.com/EnigmaticaModpacks/Enigmatica9/issues/233)
+-   CTOV Desert Village causes a crash on desert biomes! [\#232](https://github.com/EnigmaticaModpacks/Enigmatica9/issues/232)
+-   Kubejs errors [\#154](https://github.com/EnigmaticaModpacks/Enigmatica9/issues/154)
+
+---
+
+### Enigmatica 9 v1.4.1 + v1.4.2
 
 _Using Forge-1.19.2-43.2.4_ | _[Mod Updates](https://github.com/EnigmaticaModpacks/Enigmatica9/blob/master/changelogs/changelog_mods_1.4.1.md)_ | _[Modlist](https://github.com/EnigmaticaModpacks/Enigmatica9/blob/master/changelogs/modlist_1.4.1.md)_
 
@@ -6,6 +76,8 @@ _Using Forge-1.19.2-43.2.4_ | _[Mod Updates](https://github.com/EnigmaticaModpac
 
 **Fixed Bugs**
 
+-   Disabled Quark automatic recipe unlock to decrease world load times in some cases.
+-   Set Better Compat Check version correctly.
 -   Market is Missing Necessary Seeds \(1.4.0\) [\#230](https://github.com/EnigmaticaModpacks/Enigmatica9/issues/230)
 -   Cannot connect to server on version 1.4.0 [\#229](https://github.com/EnigmaticaModpacks/Enigmatica9/issues/229)
 
