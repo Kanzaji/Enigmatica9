@@ -1,16 +1,17 @@
 ServerEvents.recipes((event) => {
-    const id_prefix = 'enigmatica:normal/create/crushing_wheels/';
     if (global.isNormalMode == false) {
         return;
     }
+    const id_prefix = 'enigmatica:normal/create/crushing_wheels/';
 
     let recipes = [
         {
             ingredients: [Ingredient.of(`#forge:ores/netherite`, 1)],
             processingTime: 480,
             results: [
-                { item: 'emendatusenigmatica:crushed_netherite_ore' },
-                { item: 'emendatusenigmatica:crushed_gold_ore', chance: 0.66 }
+                { item: 'mekanism:dirty_netherite_scrap' },
+                { item: 'mekanism:dirty_netherite_scrap', chance: 0.25 },
+                { item: 'minecraft:ancient_debris', chance: 0.5 }
             ],
             id: `${id_prefix}crushed_netherite`
         }

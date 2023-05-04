@@ -17,7 +17,7 @@ ServerEvents.chestLootTables((event) => {
             pool.addItem(
                 Item.of('apotheosis:potion_charm', '{Damage:0,Potion:"minecraft:water_breathing"}'),
                 1,
-                [5, 10]
+                [1, 3]
             );
         });
     });
@@ -41,7 +41,19 @@ ServerEvents.chestLootTables((event) => {
             pool.rolls = [1, 1];
             pool.randomChance(0.15);
             pool.addItem(Item.of('ars_elemental:siren_shards'), 1);
-            pool.addItem(Item.of('occultism:familiar_ring'), 1);
+        });
+
+        table.addPool((pool) => {
+            pool.rolls = [1, 1];
+            pool.randomChance(0.05);
+            pool.addItem(Item.of('occultism:familiar_ring', '{familiarType:"occultism:cthulhu_familiar"}'), 1, 1);
+        });
+
+        table.addPool((pool) => {
+            pool.rolls = [1, 3];
+            pool.randomChance(0.15);
+            pool.addItem('emendatusenigmatica:raw_copper', 2, [2, 4]);
+            pool.addItem('emendatusenigmatica:raw_silver', 1, [2, 4]);
         });
     });
 });
